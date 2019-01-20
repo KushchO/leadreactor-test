@@ -4,11 +4,13 @@
   text-align: center;
   padding-top: 32px;
   padding-bottom: 42px;
+  width: 100%;
+    display: table;
+    position: relative;
+    overflow: hidden;
 
-  position: relative;
 
-  &::before {
-    content: '';
+  .slider__previous {
     position: absolute;
     width: 35px;
     height: 40px;
@@ -17,8 +19,7 @@
     left: 67px;
   }
 
-  &::after {
-    content: '';
+  .slider__next {
     position: absolute;
     width: 35px;
     height: 40px;
@@ -31,6 +32,19 @@
 .slider__list {
   @include margin-pading-reset;
   list-style: none;
+  width: calc(100% * 4);
+  top: 0;
+  left: 0;
+  transition: 1s;
+
+  position: relative;
+}
+
+.slider__item {
+  width: calc(100%/4);
+    list-style: none;
+    display: inline;
+    float: left;
 }
 
 .slider__info {
