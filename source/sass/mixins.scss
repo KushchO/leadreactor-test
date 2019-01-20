@@ -1,0 +1,19 @@
+@mixin margin-pading-reset {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin  btn {
+  padding: 0;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  position: relative;
+}
+
+@mixin block {
+  display: flex;
+  width: 410px;
+  height: 410px;
+  flex-grow: 0;
+}

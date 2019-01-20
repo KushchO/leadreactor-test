@@ -1,0 +1,18 @@
+/*SASS*/
+@import "normolize.scss";
+
+/*General*/
+@import "general.scss";
+@import "variables.scss";
+@import "mixins.scss";
+
+/*Blocks*/
+@import "../sass/blocks/video.scss";
+@import "../sass/blocks/slider.scss";
+@import "../sass/blocks/insta.scss";
+@import "../sass/blocks/formula.scss";
+@import "../sass/blocks/order.scss";
+@import "../sass/blocks/timer.scss";
+@import "../sass/blocks/btn.scss";
+@import "../sass/blocks/visually-hidden.scss";
+

@@ -1,0 +1,74 @@
+.formula {
+  background-image: url('../img/main-bg.png');
+  background-repeat: no-repeat;
+  background-position-y: 0;
+  text-align: center;
+  padding-bottom: 29px;
+  padding-top: 35px;
+}
+
+.formula_title {
+  @include margin-pading-reset;
+
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 900;
+  text-align: center;
+
+  &--orange {
+    color: #d46c14;
+  }
+
+  padding: 0 40px;
+  margin-bottom: 28px;
+}
+
+.formula__list {
+  padding-right: 38px;
+  margin-bottom: 14px;
+}
+
+.formula__item:not(:last-child) {
+  margin-bottom: 28px;
+}
+
+.insta__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.formula__component-img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.formula__component-title {
+  @include margin-pading-reset;
+
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #677494;
+
+  margin-bottom: 18px;
+}
+
+.formula__component-info {
+  @include margin-pading-reset;
+
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+
+  padding: 0 9px;
+}
+
+.formula__list {
+  list-style: none;
+  text-align: center;
+}
+
+.formula__bottom-img {
+
+}

@@ -1,0 +1,5 @@
+'use srtict';
+
+(function () {
+
+})();
