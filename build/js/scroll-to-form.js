@@ -9,4 +9,4 @@ $(function(){
   $('.video__btn-order').on('click', function(){
     $('.order__form').autoscroll();
   });
-})
+});

@@ -1,4 +1,7 @@
-var slideNow = 1;
+'use strict';
+
+(function(){
+  var slideNow = 1;
 var slideCount = $('.slider__list').children().length;
 var slideInterval = 3000;
 var navBtnId = 0;
@@ -57,3 +60,4 @@ function prevSlide() {
         slideNow--;
     }
 }
+})();
